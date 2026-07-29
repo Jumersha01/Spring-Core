@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 
 public class IntercepotrExampleController {
-
+//some change
 	@GetMapping("/")
 	public String home() {
 		return "Welcome to home";
